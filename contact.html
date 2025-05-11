@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Boxicons Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive 3D portfolio Assignment</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="nav">
+      <div class="menu-toggle">&#9776;</div> <!-- Hamburger icon -->
+      <ul class="nav-list">
+        <li>
+          <a href="./home.html">
+                <i class="bx bx-home-alt"></i>
+                <span class="tooltip">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="./about.html">
+                <i class="bx bx-user"></i>
+                <span class="tooltip">About</span>
+          </a>
+        </li>
+        <li>
+          <a href="./resume.html">
+            <i class="bx bx-detail"></i>
+            <span class="tooltip">Resume</span>
+          </a>
+        </li>
+        <li>
+          <a href="./portfolio.html">
+            <i class="bx bx-briefcase"></i>
+            <span class="tooltip">Portfolio</span>
+          </a>
+        </li>
+        <li class="active">
+          <a href="./contact.html" id="active">
+            <i class="bx bx-envelope"></i>
+            <span class="tooltip">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- contact section -->
+
+    <section class="section contact active">
+      <h2 class="title">Contact</h2>
+      <div class="contact-wrapper">
+        <form action="" class="contact-form">
+          <h3>Let's Work Together!</h3>
+          <div class="field-box">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="text" placeholder="Phone Number" required />
+            <input type="text" placeholder="Email Subject" required />
+            <textarea
+              name=""
+              id=""
+              placeholder="Your message"
+              required
+            ></textarea>
+          </div>
+          <div class="contact-btn">
+            <button type="submit" class="btn">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Javascript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
